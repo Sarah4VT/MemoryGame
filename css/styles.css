@@ -1,0 +1,42 @@
+body {
+    font-family: source-sans-pro, sans-serif;
+    font-size: 15px;
+}
+
+.statusMsg {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.playerDiv {
+	font-weight: bold;
+}
+
+.playerMatches {
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.playerMatches span {
+	margin-left: 10px;
+}
+
+.itemFlipped.notMatched {
+	border: 5px;
+	border-color: #434E54;
+	border-style: solid;
+}
+
+.itemFlipped.matched {
+	border: 5px;
+	border-color: grey;
+	border-style: solid;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.itemNotFlipped {
+	border: 5px;
+	border-color: grey;
+	border-style: solid;
+}
